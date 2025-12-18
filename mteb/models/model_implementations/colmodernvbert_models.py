@@ -1,7 +1,7 @@
 from __future__ import annotations
 import logging
 
-from mteb.models.colpali_models import COLPALI_TRAINING_DATA, ColPaliEngineWrapper
+from mteb.models.model_implementations.colpali_models import COLPALI_TRAINING_DATA, ColPaliEngineWrapper
 from mteb.requires_package import (
     requires_package,
 )
